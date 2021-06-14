@@ -47,6 +47,12 @@
     factory=".agilent.masshunter.aorc.aorcimport"
     provides="bika.lims.exportimport.instruments.IInstrumentImportInterface"/>
 
+    <adapter
+     for="*"
+     name="jonathans_groovey_bci_importer"
+     factory=".bci.instrument.bciimport"
+     provides="bika.lims.exportimport.instruments.IInstrumentImportInterface"/>
+
 <!-- Incomplete ...
    <adapter
     for="*"
